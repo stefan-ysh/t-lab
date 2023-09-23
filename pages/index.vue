@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h1>index page</h1>
+        <h1 class="text-3xl font-bold underline">
+            index page
+        </h1>
         {{ counter }}
         <!--跳转链接-->
         <NuxtLink to="/detail">Detail Page</NuxtLink>

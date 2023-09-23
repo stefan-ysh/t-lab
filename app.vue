@@ -1,6 +1,6 @@
 <template>
   <!-- 布局出口 -->
-  <NuxtLayout>
+  <NuxtLayout name="default">
     <!-- 路由出口 -->
     <nuxt-page />
   </NuxtLayout>

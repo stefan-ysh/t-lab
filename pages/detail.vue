@@ -7,13 +7,8 @@
         <div>
             Counter: {{ counter }}
             <br>
-            <button @click="counter++">
-                +
-            </button>
-            <br>
-            <button @click="counter--">
-                -
-            </button>
+            <UButton @click="counter--">SUB</UButton>
+            <UButton @click="counter++">ADD</UButton>
         </div>
     </div>
 </template>

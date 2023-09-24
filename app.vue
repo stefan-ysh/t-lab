@@ -1,8 +1,14 @@
 <template>
   <!-- 布局出口 -->
   <NuxtLayout name="default">
+    <template #header>
+      <default-header />
+    </template>
     <!-- 路由出口 -->
     <nuxt-page />
+    <template #footer>
+      <default-footer />
+    </template>
   </NuxtLayout>
 </template>
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-    <div class=flex>
+    <div>
         <h1>detail page</h1>
         <!--跳转链接-->
         <NuxtLink to="/">Index Page</NuxtLink>
@@ -7,8 +7,13 @@
         <div>
             Counter: {{ counter }}
             <br>
-            <button class="btn btn-neutral" @click="counter--">-</button>
-            <button class="btn btn-primary" @click="counter++">+</button>
+            <button @click="counter++">
+                +
+            </button>
+            <br>
+            <button @click="counter--">
+                -
+            </button>
         </div>
     </div>
 </template>

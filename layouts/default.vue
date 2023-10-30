@@ -1,13 +1,13 @@
 <template>
-  <div class="w-full my-5 mx-auto fixed top-0" @mouseleave="leave">
-    <div class="absolute top-2/4 left-4 -translate-y-2/4">Jiabin Labs</div>
+  <div class="w-full my-5 mx-auto fixed top-0 z-50" @mouseleave="leave">
+    <div class="absolute top-2/4 left-4 -translate-y-2/4 text-cyan-50">Jiabin Labs</div>
     <ul class="w-6/12 bg-header-color table rounded-xl pl-3 pr-3 whitespace-nowrap my-0 mx-auto text-center">
       <li v-for="menu in  MENU_LIST" :key="menu.label" class="relative inline-block  ml-12">
-        <a class="block font-sans" :href="menu.path ? menu.path : '#'" @mouseover="overLi(menu)">{{ menu.label }}</a>
+        <a class="block font-sans" :href="'#' ? '#' : '#'" @mouseover="overLi(menu)">{{ menu.label }}</a>
         <ul v-if="curMenu === menu.label"
           class="absolute left-1/2 -translate-x-2/4 bg-header-color table my-0 mx-auto rounded-xl p-3">
           <li v-for="item in menu.items" :key="item.label" class="ml-0 flex flex-col whitespace-nowrap">
-            <a class="relative block font-sans" :href="item.path ? item.path : '#'">{{ item.label }}</a>
+            <a class="relative block font-sans" :href="'#' ? '#' : '#'">{{ item.label }}</a>
           </li>
         </ul>
       </li>

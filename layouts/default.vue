@@ -14,7 +14,120 @@
     </ul>
   </div>
   <slot />
-</template>
+  <div class="footer-container w-full md:w-[inherit]" data-v-a9ab81e2="">
+    <div class="lg:block hidden w-full border-t-[1px] border-grey-800" data-v-a9ab81e2=""></div>
+    <nav class="md:grid hidden grid-cols-5 w-full gap-x-8 p-10" data-v-a9ab81e2="">
+      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a
+          href="/research-innovation/" class="flex justify-center text-text-primary footer-hover-active"
+          data-v-a9ab81e2="">
+          <p class="caption-sm font-bold" data-v-a9ab81e2="">Research Areas</p>
+        </a>
+        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
+            href="/research-innovation/network-fundamentals/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Network Fundamentals</p>
+          </a><a href="/research-innovation/automation/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Automation</p>
+          </a><a href="/research-innovation/semiconductors-devices/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Semiconductors and Devices</p>
+          </a><a href="/research-innovation/ai-software-systems/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">AI and Software Systems</p>
+          </a></div>
+      </div>
+      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a href="/institute/"
+          class="flex justify-center text-text-primary footer-hover-active" data-v-a9ab81e2="">
+          <p class="caption-sm font-bold" data-v-a9ab81e2="">Publications &amp; Media</p>
+        </a>
+        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
+            href="/institute/blog/" class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Blogs</p>
+          </a><a href="/institute/white-papers/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">White papers</p>
+          </a><a href="/institute/media/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Media</p>
+          </a><a href="/institute/publications/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Publications</p>
+          </a></div>
+      </div>
+      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a
+          href="/bell-labs-consulting/" class="flex justify-center text-text-primary footer-hover-active"
+          data-v-a9ab81e2="">
+          <p class="caption-sm font-bold" data-v-a9ab81e2="">Consulting</p>
+        </a>
+        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
+            href="/bell-labs-consulting/communications-service-providers/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Communications service providers</p>
+          </a><a href="/bell-labs-consulting/enterprises-and-industry-players/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Enterprises and industry</p>
+          </a><a href="/bell-labs-consulting/webscalers/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Webscalers</p>
+          </a></div>
+      </div>
+      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a
+          href="/collaboration-opportunities/" class="flex justify-center text-text-primary footer-hover-active"
+          data-v-a9ab81e2="">
+          <p class="caption-sm font-bold" data-v-a9ab81e2="">Collaboration</p>
+        </a>
+        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
+            href="/collaboration-opportunities/careers/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Careers</p>
+          </a><a href="/collaboration-opportunities/internships/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Internships</p>
+          </a><a href="/collaboration-opportunities/prize/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Bell Labs Prize</p>
+          </a><a href="/collaboration-opportunities/d-a-p/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Distinguished Academic Partners</p>
+          </a><a href="/collaboration-opportunities/arena2036/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">ARENA2036</p>
+          </a><a href="/collaboration-opportunities/iii-v-lab/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">III-V Lab</p>
+          </a></div>
+      </div>
+      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a href="/about/"
+          class="flex justify-center text-text-primary footer-hover-active" data-v-a9ab81e2="">
+          <p class="caption-sm font-bold" data-v-a9ab81e2="">About</p>
+        </a>
+        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
+            href="/about/researcher-profiles/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Our people</p>
+          </a><a href="/about/the-women-driving-nokia-research-innovation/"
+            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Our women innovators</p>
+          </a><a href="/about/locations/" class="flex justify-center text-grey-800 footer-hover-active"
+            data-v-a9ab81e2="">
+            <p class="caption-sm font-normal" data-v-a9ab81e2="">Locations</p>
+        </a><a href="/about/history/" class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+          <p class="caption-sm font-normal" data-v-a9ab81e2="">History</p>
+        </a><a href="/about/awards/" class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+          <p class="caption-sm font-normal" data-v-a9ab81e2="">Awards</p>
+        </a><a href="/about/press-releases/" class="flex justify-center text-grey-800 footer-hover-active"
+          data-v-a9ab81e2="">
+          <p class="caption-sm font-normal" data-v-a9ab81e2="">Press releases</p>
+        </a><a href="/about/contact/" class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
+          <p class="caption-sm font-normal" data-v-a9ab81e2="">Contact us</p>
+        </a></div>
+    </div>
+  </nav>
+  <div class="w-full border-t-[1px] border-grey-800" data-v-a9ab81e2=""></div>
+
+    <div class="w-full text-center" data-v-a9ab81e2=""> ©2023 Nokia All rights reserved </div>
+</div></template>
 <script setup>
 const cl = (event) => {
   // 获取当前
@@ -131,8 +244,7 @@ const leave = () => {
   curMenu.value = ''
 }
 </script>
-<style>
-ul li a {
+<style>ul li a {
   font-family: arial;
   color: #000000;
   text-decoration: none;
@@ -160,5 +272,4 @@ ul li a::after {
 ul a:hover::after {
   transform-origin: bottom left;
   transform: scaleX(1);
-}
-</style>
+}</style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="index-container lg:bg-index-bgimg sm:bg-index-bgimg-mobile bg-fixed bg-cover">
+    <div class="index-container bg-index-bgimg-mobile lg:bg-index-bgimg sm:bg-index-bgimg-mobile bg-fixed bg-cover">
         <section class="hero-section hero-background">
             <div class="w-full h-52 md:min-h-[calc(77vh-6.729rem)] min-h-[calc(77vh-5.844rem)] hero-container text-cyan-50">
                 <article class=" w-6/12">
@@ -24,7 +24,7 @@
                     <img src="@/assets/img/index_1.png"
                         class="object-cover w-full h-full">
                 </div>
-                <div class="lg:w-6/12 sm:w-full bg-slate-400 flex flex-col justify-center lg:p-10 sm:p-10 text-black sm:mt-10 lg:mt-0">
+                <div class="lg:w-6/12 sm:w-full w-full bg-slate-400 flex flex-col justify-center lg:p-10 sm:p-10 p-10 text-black sm:mt-10 lg:mt-0">
                     <h3 class="pb-10">
                         Our Research
                     </h3>
@@ -61,14 +61,14 @@
                     </a>
                     <div class="lg:flex items-center sm:block">
                         <a href="#"
-                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 gta-featured-topics flex p-6 m-6 w-6/12 flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
+                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 gta-featured-topics flex p-6 m-6 w-full mx-0 flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
                             <p class="caption-base text-lg">Research</p>
                             <div class="flex md:flex-col flex-row gap-content-sm md:items-start items-center">
                                 <h5 class="flex-1 line-clamp-3">What is Responsible AI?</h5>
                             </div>
                         </a>
                         <a href="#"
-                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 lg:mx-10 gta-featured-topics flex p-6 m-6 w-6/12 flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
+                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 lg:mx-10 gta-featured-topics flex p-6 m-6 w-full mx-0 flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
                             <p class="caption-base text-lg">Blog</p>
                             <div class="flex md:flex-col flex-row gap-content-sm md:items-start items-center">
                                 <h5 class="flex-1 line-clamp-3">AI solutions look to create a sustainable future</h5>
@@ -94,14 +94,14 @@
                     </a>
                     <div class="lg:flex items-center sm:block">
                         <a href="#"
-                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 gta-featured-topics flex p-6 m-6 w-6/12 flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
+                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 w-full mx-0 gta-featured-topics flex p-6 m-6  flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
                             <p class="caption-base text-lg">Research</p>
                             <div class="flex md:flex-col flex-row gap-content-sm md:items-start items-center">
                                 <h5 class="flex-1 line-clamp-3">What is Responsible AI?</h5>
                             </div>
                         </a>
                         <a href="#"
-                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 lg:mx-10 gta-featured-topics flex p-6 m-6 w-6/12 flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
+                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 w-full mx-0 lg:mx-10 gta-featured-topics flex p-6 m-6  flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
                             <p class="caption-base text-lg">Blog</p>
                             <div class="flex md:flex-col flex-row gap-content-sm md:items-start items-center">
                                 <h5 class="flex-1 line-clamp-3">AI solutions look to create a sustainable future</h5>
@@ -132,14 +132,14 @@
                     </a>
                     <div class="lg:flex items-center sm:block">
                         <a href="#"
-                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 gta-featured-topics flex p-6 m-6 w-6/12 flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
+                            class=" hover:scale-105 transition-all justify-center sm:w-full w-full sm:mx-0 mx-0 gta-featured-topics flex p-6 m-6  flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
                             <p class="caption-base text-lg">Research</p>
                             <div class="flex md:flex-col flex-row gap-content-sm md:items-start items-center">
                                 <h5 class="flex-1 line-clamp-3">What is UNEXT?</h5>
                             </div>
                         </a>
                         <a href="#"
-                            class=" hover:scale-105 transition-all justify-center sm:w-full sm:mx-0 lg:mx-10 gta-featured-topics flex p-6 m-6 w-6/12 flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
+                            class=" hover:scale-105 transition-all justify-center sm:w-full w-full sm:mx-0 mx-0 lg:mx-10 gta-featured-topics flex p-6 m-6  flex-col p-content-base gap-y-content-sm rounded-md bg-gray-200 h-full hover-scale">
                             <p class="caption-base text-lg">Project</p>
                             <div class="flex md:flex-col flex-row gap-content-sm md:items-start items-center">
                                 <h5 class="flex-1 line-clamp-3">L4S, the crucial enabler for large-scale deployments of real-time applications</h5>

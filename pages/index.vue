@@ -25,9 +25,9 @@
                         class="object-cover w-full h-full">
                 </div>
                 <div class="lg:w-6/12 sm:w-full bg-slate-400 flex flex-col justify-center lg:p-10 sm:p-10 text-black sm:mt-10 lg:mt-0">
-                    <h2 class="pb-10">
+                    <h3 class="pb-10">
                         Our Research
-                    </h2>
+                    </h3>
                     <h4 class="w-[105%] py-10">
                         Nokia Bell Labs is innovating the technologies that will transform the way we live our lives
                     </h4>
@@ -188,5 +188,8 @@ const counter = useState('counter', () => 500)
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
     padding-top: 3.75rem;
+}
+h3 {
+    font-size: 3rem;
 }
 </style>

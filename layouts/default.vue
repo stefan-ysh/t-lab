@@ -15,7 +15,7 @@
   </div>
   <slot />
   <div class="footer-container w-full md:w-[inherit]" data-v-a9ab81e2="">
-    <div class="lg:block hidden w-full border-t-[1px] border-grey-800" data-v-a9ab81e2=""></div>
+    <div class="lg:block hidden w-full border-t-[1px] border-grey-800 my-10" data-v-a9ab81e2=""></div>
     <nav class="md:grid hidden grid-cols-5 w-full gap-x-8 p-10" data-v-a9ab81e2="">
       <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a
           href="/research-innovation/" class="flex justify-center text-text-primary footer-hover-active"

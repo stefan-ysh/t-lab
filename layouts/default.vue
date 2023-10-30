@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full my-5 mx-auto fixed top-0 z-50 lg:bg-index-bgimg" @mouseleave="leave">
+  <div class="w-full my-5 mx-auto fixed top-0 z-50" @mouseleave="leave">
     <div class="absolute top-2/4 left-4 -translate-y-2/4 text-cyan-50">Jiabin Labs</div>
     <ul class="w-6/12 bg-header-color table rounded-xl pl-3 pr-3 whitespace-nowrap my-0 mx-auto text-center">
       <li v-for="menu in  MENU_LIST" :key="menu.label" class="relative inline-block  ml-12">

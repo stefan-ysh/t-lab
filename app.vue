@@ -7,7 +7,7 @@
 </template>
 <script setup lang="ts">
 useHead({
-  title: 'My App',
+  title: 'Jiabin Labs',
   meta: [
     { name: 'description', content: 'My amazing site.' }
   ],

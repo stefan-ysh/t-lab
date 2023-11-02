@@ -46,7 +46,7 @@ useHead({
   /* transform: rotate3d(1, 1, 1, 15deg); */
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
 
   h1,
   .h1 {
@@ -109,4 +109,5 @@ h2,
   font-weight: 300;
   line-height: 2.625rem;
   letter-spacing: .02rem;
-}</style>
+} */
+</style>

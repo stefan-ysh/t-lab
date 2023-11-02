@@ -1,14 +1,5 @@
 <template>
     <div class="index-container">
-        <!-- <section class="hero-section hero-background">
-            <div class="w-full h-52 md:min-h-[calc(77vh-6.729rem)] min-h-[calc(77vh-5.844rem)] hero-container text-cyan-50">
-                <article class=" w-6/12">
-                    <h1>
-                        Innovation with purpose
-                    </h1>
-                </article>
-            </div>
-        </section> -->
         <div class="carousel block w-full relative">
             <div class="relative mt-0 w-full">
                 <div class="carousel-inner relative overflow-hidden w-full">
@@ -60,26 +51,33 @@
                 Know More
             </div>
         </div>
-        <div class="studio-container grid grid-cols-3 justify-items-center p-5">
-            <div class="flex m-5 flex-col w-1/3 justify-center items-center">
-                <img class="w-full block h-auto" src="http://fakeimg.pl/2000x800/0079D8/fff/?text=.">
-                <h1 class="absolute">Without</h1>
+        <div class="studio-container grid grid-cols-3 gap-x-4 gap-y-4 justify-items-center p-5 bg-cyan-50">
+            <!-- <div class="flex flex-col w-full justify-center items-center">
+                <img class="w-full block h-auto" src="http://fakeimg.pl/4000x2000/0079D8/fff/?text=Aprcasi">
+                <h1 class="absolute">Studio 1</h1>
             </div>
-            <div class="flex m-5 flex-col w-1/3 justify-center items-center">
-                <img class="w-full block h-auto" src="http://fakeimg.pl/2000x800/0079D8/fff/?text=.">
-                <h1 class="absolute">Studio</h1>
+            <div class="flex flex-col w-full justify-center items-center">
+                <img class="w-full block h-auto" src="http://fakeimg.pl/4000x2000/0079D8/fff/?text=Aprcasi">
+                <h1 class="absolute">Studio 2</h1>
             </div>
-            <div class="flex m-5 flex-col w-1/3 justify-center items-center">
-                <img class="w-full block h-auto" src="http://fakeimg.pl/2000x800/0079D8/fff/?text=.">
-                <h1 class="absolute">Mine</h1>
+            <div class="flex flex-col w-full justify-center items-center">
+                <img class="w-full block h-auto" src="http://fakeimg.pl/4000x2000/0079D8/fff/?text=Aprcasi">
+                <h1 class="absolute">Studio 3</h1>
             </div>
-            <div class="flex m-5 flex-col w-1/3 justify-center items-center">
-                <img class="w-full block h-auto" src="http://fakeimg.pl/2000x800/0079D8/fff/?text=.">
-                <h1 class="absolute">Yours</h1>
+            <div class="flex flex-col w-full justify-center items-center">
+                <img class="w-full block h-auto" src="http://fakeimg.pl/4000x2000/0079D8/fff/?text=Aprcasi">
+                <h1 class="absolute">Studio 4</h1>
             </div>
-            <div class="flex m-5 flex-col w-1/3 justify-center items-center">
-                <img class="w-full block h-auto" src="http://fakeimg.pl/2000x800/0079D8/fff/?text=.">
-                <h1 class="absolute">China</h1>
+            <div class="flex flex-col w-full justify-center items-center">
+                <img class="w-full block h-auto" src="http://fakeimg.pl/4000x2000/0079D8/fff/?text=Aprcasi">
+                <h1 class="absolute">Studio 5</h1>
+            </div> -->
+            <div v-for="(studio, i) in studioList" :key="studio"
+                class="flex flex-col w-full justify-center items-center p-10">
+            {{ i }}
+
+                <img class="w-full block h-auto" :src="'/_nuxt/assets/img/studio/' + (i + 1) + '.jpg'">
+                <h1 class="absolute">{{ studio }}</h1>
             </div>
         </div>
 
@@ -93,6 +91,8 @@
 <script setup lang="ts">
 const counter = useState('counter', () => 500)
 // http://fakeimg.pl/2000x800/0079D8/fff/?text=Without
+// 工作室列表 1- 18
+const studioList = ['Studio 1', 'Studio 2', 'Studio 3', 'Studio 4', 'Studio 5', 'Studio 6', 'Studio 7', 'Studio 8', 'Studio 9', 'Studio 10', 'Studio 11', 'Studio 12', 'Studio 13', 'Studio 14', 'Studio 15', 'Studio 15', 'Studio 16', 'Studio 17']
 </script>
 <style scoped>
 .hero-container {

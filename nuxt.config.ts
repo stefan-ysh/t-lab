@@ -1,11 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  // modules: ["nuxt-primevue"],
+  // modules: [],
   css: [
-    "~/assets/css/tailwind.css",
-    // "primevue/resources/themes/lara-dark-teal/theme.css",
-    // "primeicons/primeicons.css",
+    "~/assets/css/tailwind.css"
   ],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
@@ -15,13 +13,5 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
-  },
-  primevue: {
-    options: {
-      ripple: true,
-    },
-    components: {
-      include: '*',
-    },
-  },
+  }
 });

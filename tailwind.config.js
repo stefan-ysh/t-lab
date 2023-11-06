@@ -18,6 +18,7 @@ module.exports = {
       backgroundImage: {
         "index-bgimg": "url('/assets/bg-img/Homepage_banner.jpg')",
         "index-bgimg-mobile": "url('/assets/bg-img/Homepage_mobile.jpg')",
+        secondImg: "url('~/assets/img/studio/1.jpg')",
       },
       // 左边的值 left
       inset: {

@@ -21,9 +21,9 @@
                 <h1 class="absolute">Studio 5</h1>
             </div> -->
         <div v-for="(studio, i) in studioList" :key="studio.img"
-            class="flex flex-col w-full justify-center items-center p-10">
-            <img class="w-full block h-auto" :src="studio.img" />
-            <div class="absolute w-28 text-2xl text-cyan-50 text-center">{{ studio.name }}</div>
+            class="flex flex-col w-full justify-center items-center p-5">
+            <img class="w-full block h-full" :src="studio.img" />
+            <div class="absolute w-1/5 text-sm lg:text-2xl text-cyan-50 text-center">{{ studio.name }}</div>
         </div>
     </div>
 </template>

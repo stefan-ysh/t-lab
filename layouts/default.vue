@@ -7,7 +7,7 @@
         <ul v-if="curMenu === menu.label"
           class="absolute left-1/2 -translate-x-2/4 bg-header-color table my-0 mx-auto rounded-xl p-3">
           <li v-for="item in menu.items" :key="item.label" class="ml-0 flex flex-col whitespace-nowrap">
-            <a class="relative block font-sans" :href="'#' ? '#' : '#'">{{ item.label }}</a>
+            <a class="relative block font-sans" :href="item.path">{{ item.label }}</a>
           </li>
         </ul>
       </li>
@@ -215,7 +215,7 @@ const MENU_LIST = [
     items: [
       {
         label: '关于 Jiabin Labs',
-        path: '/item1',
+        path: '/about',
       },
       {
         label: 'Research Scientist',

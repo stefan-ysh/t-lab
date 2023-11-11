@@ -227,7 +227,7 @@ const MENU_LIST = [
       },
       {
         label: '科研与项目转孵化',
-        path: '/labs/item1',
+        path: '/labs/science-research-project',
       },
     ]
   },

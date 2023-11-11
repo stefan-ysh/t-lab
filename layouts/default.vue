@@ -39,9 +39,9 @@
         <template v-for="menu in MENU_LIST" :key="menu.label">
           <h3 class="w-full !p-0 -ml-7 font-mono">{{ menu.label }}</h3>
           <hr class="h-[1px] md:w-[60%] w-[60%] border-t-[4px] border-primary-400 border-cyan-400">
-          <a href="#" v-for="item in menu.items" :key="item.label">
+          <nuxt-link :href="item.path" v-for="item in menu.items" :key="item.label">
             <li>{{ item.label }}</li>
-          </a>
+          </nuxt-link>
         </template>
       </ul>
     </div>

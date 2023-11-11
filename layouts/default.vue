@@ -3,11 +3,11 @@
     <div class="absolute top-2/4 left-4 -translate-y-2/4 text-cyan-50">Jiabin Labs</div>
     <ul class="w-6/12 bg-header-color table rounded-xl pl-3 pr-3 whitespace-nowrap my-0 mx-auto text-center">
       <li v-for="menu in  MENU_LIST" :key="menu.label" class="relative inline-block  ml-12">
-        <a class="block font-sans" :href="'#' ? '#' : '#'" @mouseover="overLi(menu)">{{ menu.label }}</a>
+        <nuxt-link class="block font-sans" :href="'#' ? '#' : '#'" @mouseover="overLi(menu)">{{ menu.label }}</nuxt-link>
         <ul v-if="curMenu === menu.label"
           class="absolute left-1/2 -translate-x-2/4 bg-header-color table my-0 mx-auto rounded-xl p-3">
           <li v-for="item in menu.items" :key="item.label" class="ml-0 flex flex-col whitespace-nowrap">
-            <a class="relative block font-sans" :href="item.path">{{ item.label }}</a>
+            <nuxt-link class="relative block font-sans" :href="item.path">{{ item.label }}</nuxt-link>
           </li>
         </ul>
       </li>
@@ -47,95 +47,95 @@
     </div>
   </nav>
   <slot />
-  <div class="footer-container w-full md:w-[inherit]" data-v-a9ab81e2="">
+  <div class="footer-container w-full md:w-[inherit]">
     <div>我们的最新动态</div>
-    <div class="lg:block hidden w-full border-t-[1px] border-grey-800 mb-5" data-v-a9ab81e2=""></div>
-    <nav class="md:grid hidden grid-cols-4 w-full py-5 gap-x-8" data-v-a9ab81e2="">
-      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a
+    <div class="lg:block hidden w-full border-t-[1px] border-grey-800 mb-5"></div>
+    <nav class="md:grid hidden grid-cols-4 w-full py-5 gap-x-8">
+      <div class="flex flex-col gap-y-content-sm justify-start items-start"><a
           href="/research-innovation/" class="flex justify-center text-text-primary footer-hover-active"
-          data-v-a9ab81e2="">
-          <p class="caption-sm font-bold" data-v-a9ab81e2="">植物生长工作室</p>
+          >
+          <p class="caption-sm font-bold">植物生长工作室</p>
         </a>
-        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
+        <div class="flex flex-col gap-y-content-xs justify-start items-start"><a
             href="/research-innovation/network-fundamentals/"
-            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Network Fundamentals</p>
+            class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">Network Fundamentals</p>
           </a><a href="/research-innovation/automation/" class="flex justify-center text-grey-800 footer-hover-active"
-            data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Automation</p>
+            >
+            <p class="caption-sm font-normal">Automation</p>
           </a><a href="/research-innovation/semiconductors-devices/"
-            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Semiconductors and Devices</p>
+            class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">Semiconductors and Devices</p>
           </a><a href="/research-innovation/ai-software-systems/"
-            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">AI and Software Systems</p>
+            class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">AI and Software Systems</p>
           </a></div>
       </div>
-      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a href="/institute/"
-          class="flex justify-center text-text-primary footer-hover-active" data-v-a9ab81e2="">
-          <p class="caption-sm font-bold" data-v-a9ab81e2="">STEAM 和 PBL工作室</p>
+      <div class="flex flex-col gap-y-content-sm justify-start items-start"><a href="/institute/"
+          class="flex justify-center text-text-primary footer-hover-active">
+          <p class="caption-sm font-bold">STEAM 和 PBL工作室</p>
         </a>
-        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
-            href="/institute/blog/" class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Blogs</p>
+        <div class="flex flex-col gap-y-content-xs justify-start items-start"><a
+            href="/institute/blog/" class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">Blogs</p>
           </a><a href="/institute/white-papers/" class="flex justify-center text-grey-800 footer-hover-active"
-            data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">White papers</p>
+            >
+            <p class="caption-sm font-normal">White papers</p>
           </a><a href="/institute/media/" class="flex justify-center text-grey-800 footer-hover-active"
-            data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Media</p>
+            >
+            <p class="caption-sm font-normal">Media</p>
           </a><a href="/institute/publications/" class="flex justify-center text-grey-800 footer-hover-active"
-            data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Publications</p>
+            >
+            <p class="caption-sm font-normal">Publications</p>
           </a></div>
       </div>
-      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a
+      <div class="flex flex-col gap-y-content-sm justify-start items-start"><a
           href="/bell-labs-consulting/" class="flex justify-center text-text-primary footer-hover-active"
-          data-v-a9ab81e2="">
-          <p class="caption-sm font-bold" data-v-a9ab81e2="">静电纺丝法制备纳米纤维材料设备</p>
+          >
+          <p class="caption-sm font-bold">静电纺丝法制备纳米纤维材料设备</p>
         </a>
-        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
+        <div class="flex flex-col gap-y-content-xs justify-start items-start"><a
             href="/bell-labs-consulting/communications-service-providers/"
-            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Communications service providers</p>
+            class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">Communications service providers</p>
           </a><a href="/bell-labs-consulting/enterprises-and-industry-players/"
-            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Enterprises and industry</p>
+            class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">Enterprises and industry</p>
           </a><a href="/bell-labs-consulting/webscalers/" class="flex justify-center text-grey-800 footer-hover-active"
-            data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Webscalers</p>
+            >
+            <p class="caption-sm font-normal">Webscalers</p>
           </a></div>
       </div>
-      <div class="flex flex-col gap-y-content-sm justify-start items-start" data-v-a9ab81e2=""><a
+      <div class="flex flex-col gap-y-content-sm justify-start items-start"><a
           href="/collaboration-opportunities/" class="flex justify-center text-text-primary footer-hover-active"
-          data-v-a9ab81e2="">
-          <p class="caption-sm font-bold" data-v-a9ab81e2="">成果：STEAM 和 PBL成果</p>
+          >
+          <p class="caption-sm font-bold">成果：STEAM 和 PBL成果</p>
         </a>
-        <div class="flex flex-col gap-y-content-xs justify-start items-start" data-v-a9ab81e2=""><a
+        <div class="flex flex-col gap-y-content-xs justify-start items-start"><a
             href="/collaboration-opportunities/careers/" class="flex justify-center text-grey-800 footer-hover-active"
-            data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Careers</p>
+            >
+            <p class="caption-sm font-normal">Careers</p>
           </a><a href="/collaboration-opportunities/internships/"
-            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Internships</p>
+            class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">Internships</p>
           </a><a href="/collaboration-opportunities/prize/" class="flex justify-center text-grey-800 footer-hover-active"
-            data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Bell Labs Prize</p>
+            >
+            <p class="caption-sm font-normal">Bell Labs Prize</p>
           </a><a href="/collaboration-opportunities/d-a-p/" class="flex justify-center text-grey-800 footer-hover-active"
-            data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">Distinguished Academic Partners</p>
+            >
+            <p class="caption-sm font-normal">Distinguished Academic Partners</p>
           </a><a href="/collaboration-opportunities/arena2036/"
-            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">ARENA2036</p>
+            class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">ARENA2036</p>
           </a><a href="/collaboration-opportunities/iii-v-lab/"
-            class="flex justify-center text-grey-800 footer-hover-active" data-v-a9ab81e2="">
-            <p class="caption-sm font-normal" data-v-a9ab81e2="">III-V Lab</p>
+            class="flex justify-center text-grey-800 footer-hover-active">
+            <p class="caption-sm font-normal">III-V Lab</p>
           </a></div>
       </div>
     </nav>
-    <div class="w-full border-t-[1px] border-grey-800" data-v-a9ab81e2=""></div>
+    <div class="w-full border-t-[1px] border-grey-800"></div>
 
-    <div class="w-full text-center" data-v-a9ab81e2=""> ©2023 Nokia All rights reserved </div>
+    <div class="w-full text-center"> ©2023 Nokia All rights reserved </div>
   </div>
 </template>
 <script setup>
@@ -148,19 +148,19 @@ const MENU_LIST = [
     items: [
       {
         label: '985 / 211 高校',
-        path: '/985211',
+        path: '/solution/985211',
       },
       {
         label: '上市公司',
-        path: '/company-list',
+        path: '/solution/company-list',
       },
       {
         label: '500 强企业',
-        path: '/fhc',
+        path: '/solution/fhc',
       },
       {
         label: '中小企业',
-        path: '/zxqy',
+        path: '/solution/zxqy',
       },
     ]
   },
@@ -169,19 +169,19 @@ const MENU_LIST = [
     items: [
       {
         label: '985',
-        path: '/985',
+        path: '/research-group/985',
       },
       {
         label: '211',
-        path: '/211',
+        path: '/research-group/211',
       },
       {
         label: '中科院',
-        path: '/zky',
+        path: '/research-group/zky',
       },
       {
         label: '特色院校',
-        path: '/tsyx',
+        path: '/research-group/tsyx',
       },
     ]
   },
@@ -190,23 +190,23 @@ const MENU_LIST = [
     items: [
       {
         label: '珠三角',
-        path: '/saqy',
+        path: '/enterprise/saqy',
       },
       {
         label: '长三角',
-        path: '/csj',
+        path: '/enterprise/csj',
       },
       {
         label: '粤港澳',
-        path: '/yga',
+        path: '/enterprise/yga',
       },
       {
         label: '大湾区',
-        path: '/dwq',
+        path: '/enterprise/dwq',
       },
       {
         label: '其他',
-        path: '/qt',
+        path: '/enterprise/qt',
       },
     ]
   },
@@ -215,19 +215,19 @@ const MENU_LIST = [
     items: [
       {
         label: '关于 Jiabin Labs',
-        path: '/about',
+        path: '/labs/about',
       },
       {
         label: 'Research Scientist',
-        path: '/item1',
+        path: '/labs/item1',
       },
       {
         label: 'Project Scientist',
-        path: '/item1',
+        path: '/labs/item1',
       },
       {
         label: '科研与项目转孵化',
-        path: '/item1',
+        path: '/labs/item1',
       },
     ]
   },
@@ -236,11 +236,11 @@ const MENU_LIST = [
     items: [
       {
         label: '联系我们',
-        path: '/item1',
+        path: '/contact/item1',
       },
       {
         label: 'Discover More',
-        path: '/item1',
+        path: '/contact/item1',
       }
     ]
   },

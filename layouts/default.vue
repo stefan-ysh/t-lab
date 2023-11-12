@@ -219,11 +219,11 @@ const MENU_LIST = [
       },
       {
         label: 'Research Scientist',
-        path: '/labs/item1',
+        path: '/labs/research-scientist',
       },
       {
         label: 'Project Scientist',
-        path: '/labs/item1',
+        path: '/labs/project-scientist',
       },
       {
         label: '科研与项目转孵化',

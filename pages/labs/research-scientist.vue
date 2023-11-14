@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full mx-auto grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center mt-5 md:mt-10 px-20 grid-flow-row-dense">
+        class="px-0 w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center mt-5 md:mt-10 lg:px-20 grid-flow-row-dense">
         <nuxt-link :to="{
             name: 'user-id',
             params: {

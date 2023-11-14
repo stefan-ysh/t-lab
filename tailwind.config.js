@@ -18,10 +18,10 @@ module.exports = {
       backgroundImage: {
         "index-bgimg": "url('/assets/bg-img/Homepage_banner.jpg')",
         "index-bgimg-mobile": "url('/assets/bg-img/Homepage_mobile.jpg')",
-        secondImgOne: "url('~/assets/img/second-carousel/1.jpeg')",
-        secondImgTwo: "url('~/assets/img/second-carousel/2.webp')",
-        secondImgThree: "url('~/assets/img/second-carousel/3.webp')",
-        secondBanner: "url('~/assets/img/second-carousel/banner.jpeg')",
+        secondImgOne: "url('/img/second-carousel/1.jpeg')",
+        secondImgTwo: "url('/img/second-carousel/2.webp')",
+        secondImgThree: "url('/img/second-carousel/3.webp')",
+        secondBanner: "url('/img/second-carousel/banner.jpeg')",
       },
       // 左边的值 left
       inset: {

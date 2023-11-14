@@ -1,5 +1,5 @@
 <template>
-    <div class="studio-container grid grid-cols-3 gap-x-4 gap-y-4 justify-items-center p-5 bg-cyan-50">
+    <div class="studio-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-4 justify-items-center p-5 bg-cyan-50">
         <!-- <div class="flex flex-col w-full justify-center items-center">
                 <img class="w-full block h-auto" src="http://fakeimg.pl/4000x2000/0079D8/fff/?text=Aprcasi">
                 <h1 class="absolute">Studio 1</h1>
@@ -29,24 +29,24 @@
 </template>
 
 <script setup lang="ts">
-import img1 from '~/assets/img/studio/1.jpg'
-import img2 from '~/assets/img/studio/2.jpg'
-import img3 from '~/assets/img/studio/3.jpg'
-import img4 from '~/assets/img/studio/4.jpg'
-import img5 from '~/assets/img/studio/5.jpg'
-import img6 from '~/assets/img/studio/6.jpg'
-// import img7 from '~/assets/img/studio/7.jpg'
-// import img8 from '~/assets/img/studio/8.jpg'
-// import img9 from '~/assets/img/studio/9.jpg'
-// import img10 from '~/assets/img/studio/10.jpg'
-// import img11 from '~/assets/img/studio/11.jpg'
-// import img12 from '~/assets/img/studio/12.jpg'
-// import img13 from '~/assets/img/studio/13.jpg'
-// import img14 from '~/assets/img/studio/14.jpg'
-// import img15 from '~/assets/img/studio/15.jpg'
-// import img16 from '~/assets/img/studio/16.jpg'
-// import img17 from '~/assets/img/studio/17.jpg'
-// import img18 from '~/assets/img/studio/18.jpg'
+import img1 from '/img/studio/1.jpg'
+import img2 from '/img/studio/2.jpg'
+import img3 from '/img/studio/3.jpg'
+import img4 from '/img/studio/4.jpg'
+import img5 from '/img/studio/5.jpg'
+import img6 from '/img/studio/6.jpg'
+// import img7 from '/img/studio/7.jpg'
+// import img8 from '/img/studio/8.jpg'
+// import img9 from '/img/studio/9.jpg'
+// import img10 from '/img/studio/10.jpg'
+// import img11 from '/img/studio/11.jpg'
+// import img12 from '/img/studio/12.jpg'
+// import img13 from '/img/studio/13.jpg'
+// import img14 from '/img/studio/14.jpg'
+// import img15 from '/img/studio/15.jpg'
+// import img16 from '/img/studio/16.jpg'
+// import img17 from '/img/studio/17.jpg'
+// import img18 from '/img/studio/18.jpg'
 const counter = useState('counter', () => 500)
 // http://fakeimg.pl/2000x800/0079D8/fff/?text=Without
 // 工作室列表 1- 18

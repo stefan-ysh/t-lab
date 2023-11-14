@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Jack",
+    "avatar": "/img/avatar/1/1.jpeg",
+    "post": "Software Engineer",
+    "email": "Jack@tencent.org"
+  },
+  {
+    "id": "2",
+    "name": "Marry Zhou",
+    "avatar": "/img/avatar/1/2.jpeg",
+    "post": "Frontend Engineer",
+    "email": "Marry@nest.org"
+  },
+  {
+    "id": "3",
+    "name": "Jimmy",
+    "avatar": "/img/avatar/1/3.jpeg",
+    "post": "UI Designer",
+    "email": "Jimmy@nuxtjs.org"
+  },
+  {
+    "id": "4",
+    "name": "Smith",
+    "avatar": "/img/avatar/1/4.jpeg",
+    "post": "Backend Engineer",
+    "email": "Smith@nuxtjs.org"
+  },
+  {
+    "id": "5",
+    "name": "Jhon Simon",
+    "avatar": "/img/avatar/1/5.jpeg",
+    "post": "Product Manager",
+    "email": "Jhon@nuxtjs.org"
+  },
+  {
+    "id": "6",
+    "name": "Mike Jordan",
+    "avatar": "/img/avatar/1/6.jpeg",
+    "post": "Product Designer",
+    "email": "Mike@nuxtjs.org"
+  },
+  {
+    "id": "7",
+    "name": "Omina",
+    "avatar": "/img/avatar/1/7.jpeg",
+    "post": "Land Engineer",
+    "email": "Omina@1qq.org"
+  },
+  {
+    "id": "8",
+    "name": "Stefan Yuan",
+    "avatar": "/img/avatar/1/8.jpeg",
+    "post": "Marketing Manager",
+    "email": "Stefan@1qq.org"
+  }
+]

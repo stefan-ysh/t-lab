@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <h2 class="card-title">New album is released!</h2>
                     <p>Click the button to listen on Spotiwhy app.</p>
-                    <div class="card-actions justify-end">
+                    <div class="card-actions justify-center md:justify-end">
                         <button class="btn btn-outline">KNOW MORE</button>
                     </div>
                 </div>
@@ -19,10 +19,10 @@
 </template>
     
 <script setup lang="ts">
-import img1 from '~/assets/img/science-research/1.svg'
-import img2 from '~/assets/img/science-research/2.svg'
-import img3 from '~/assets/img/science-research/3.svg'
-import img4 from '~/assets/img/science-research/4.svg'
+import img1 from '/img/science-research/1.svg'
+import img2 from '/img/science-research/2.svg'
+import img3 from '/img/science-research/3.svg'
+import img4 from '/img/science-research/4.svg'
 const imgs = [img1, img2, img3, img4]
 import { useRoute } from 'vue-router'
 const id = ref()

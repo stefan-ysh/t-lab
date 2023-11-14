@@ -5,15 +5,15 @@
                 <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="true"
                     :checked="true">
                 <div class=" w-full carousel-item absolute opacity-0 transition-opacity duration-1/2 ease-out">
-                    <img class="block h-auto w-full" src="@/assets/img/index_1.png">
+                    <img class="block h-auto w-full" src="/img/index_1.png">
                 </div>
                 <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="true">
                 <div class=" w-full carousel-item absolute opacity-0 transition-opacity duration-1/2 ease-out">
-                    <img class="block h-auto w-full" src="@/assets/img/index_2.jpg">
+                    <img class="block h-auto w-full" src="/img/index_2.jpg">
                 </div>
                 <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="true">
                 <div class=" w-full carousel-item absolute opacity-0 transition-opacity duration-1/2 ease-out">
-                    <img class="block h-auto w-full" src="@/assets/img/index_3.jpg">
+                    <img class="block h-auto w-full" src="/img/index_3.jpg">
                 </div>
                 <label for="carousel-3"
                     class="carousel-control select-none bg-black bg-opacity-25 rounded-full hidden cursor-pointer text-cyan-50 h-10 leading-9 text-4xl absolute top-1/2 -translate-y-1/2 text-center w-10 z-10 hover:bg-black hover:bg-opacity-80 hover:text-cyan-300 left-2% prev control-1">‹</label>

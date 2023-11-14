@@ -4,42 +4,42 @@
     "name": "Jack",
     "avatar": "/img/avatar/2/9.jpeg",
     "post": "Software Engineer",
-    "email": "Jack@nuxtjs.org"
+    "email": "Jack@gmail.com"
   },
   {
     "id": "10",
     "name": "Marry Zhou",
     "avatar": "/img/avatar/2/10.jpeg",
     "post": "Frontend Engineer",
-    "email": "Marry@nuxtjs.org"
+    "email": "Marry@gmail.com"
   },
   {
     "id": "11",
     "name": "Jimmy",
     "avatar": "/img/avatar/2/11.jpeg",
     "post": "UI Designer",
-    "email": "Jimmy@nuxtjs.org"
+    "email": "Jimmy@gmail.com"
   },
   {
     "id": "12",
     "name": "Smith",
     "avatar": "/img/avatar/2/12.jpeg",
     "post": "Backend Engineer",
-    "email": "Smith@nuxtjs.org"
+    "email": "Smith@gmail.com"
   },
   {
     "id": "13",
     "name": "Jhon Simon",
     "avatar": "/img/avatar/2/13.jpeg",
     "post": "Product Manager",
-    "email": "Jhon@nuxtjs.org"
+    "email": "Jhon@gmail.com"
   },
   {
     "id": "14",
     "name": "Mike Jordan",
     "avatar": "/img/avatar/2/14.jpeg",
     "post": "Product Designer",
-    "email": "Mike@nuxtjs.org"
+    "email": "Mike@gmail.com"
   },
   {
     "id": "15",

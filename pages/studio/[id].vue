@@ -1,10 +1,15 @@
 <template>
     <div class="card bg-base-100 shadow-xl p-0 md:px-20 md:py-10">
-        <figure>
-            <img :src="curStudio.img" alt="">
-        </figure>
+        <div class="hero min-h-full" :style="`background-image: url(${curStudio.img})`">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">{{ curStudio.name }}</h1>
+                </div>
+            </div>
+        </div>
         <div class="card-body">
-            <h2 class="card-title">{{ curStudio.name }}</h2>
+            <!-- <h2 class="card-title">{{ curStudio.name }}</h2> -->
             <p class="first-letter:text-7xl first-letter:italic font-extralight w-full text-justify indent-10">
                 {{ curStudio.name }}: A Place for Your Dreams to Come True
 

@@ -1,6 +1,6 @@
 <template>
   <div class="w-full hidden lg:block bg-base-200 mx-auto sticky top-0 z-50" @mouseleave="leave">
-    <div class="absolute top-2/4 left-4 -translate-y-2/4 text-base-content">Jiabin Labs</div>
+    <nuxt-link class="absolute top-2/4 left-4 -translate-y-2/4 text-base-content" to="/">Jiabin Labs</nuxt-link>
     <ul class="w-6/12 bg-base-200 table rounded-xl pl-3 pr-3 whitespace-nowrap my-0 mx-auto text-center">
       <li v-for="menu in  MENU_LIST" :key="menu.label" class="relative inline-block  ml-12">
         <nuxt-link class="block font-sans" :href="'#' ? '#' : '#'" @mouseover="overLi(menu)">{{ menu.label }}</nuxt-link>

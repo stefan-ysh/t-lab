@@ -1,11 +1,11 @@
 <template>
-  <div class="w-full hidden lg:block my-5 mx-auto fixed top-0 z-50" @mouseleave="leave">
-    <div class="absolute top-2/4 left-4 -translate-y-2/4 text-cyan-50">Jiabin Labs</div>
-    <ul class="w-6/12 bg-header-color table rounded-xl pl-3 pr-3 whitespace-nowrap my-0 mx-auto text-center">
+  <div class="w-full hidden lg:block bg-base-200 mx-auto sticky top-0 z-50" @mouseleave="leave">
+    <div class="absolute top-2/4 left-4 -translate-y-2/4 text-base-content">Jiabin Labs</div>
+    <ul class="w-6/12 bg-base-200 table rounded-xl pl-3 pr-3 whitespace-nowrap my-0 mx-auto text-center">
       <li v-for="menu in  MENU_LIST" :key="menu.label" class="relative inline-block  ml-12">
         <nuxt-link class="block font-sans" :href="'#' ? '#' : '#'" @mouseover="overLi(menu)">{{ menu.label }}</nuxt-link>
         <ul v-if="curMenu === menu.label"
-          class="absolute left-1/2 -translate-x-2/4 bg-header-color table my-0 mx-auto rounded-xl p-3">
+          class="absolute left-1/2 -translate-x-2/4 bg-base-200 table my-0 mx-auto rounded-xl p-3">
           <li v-for="item in menu.items" :key="item.label" class="ml-0 flex flex-col whitespace-nowrap">
             <nuxt-link class="relative block font-sans" :href="item.path">{{ item.label }}</nuxt-link>
           </li>
@@ -378,7 +378,7 @@ const leave = () => {
 <style>
 ul li a {
   font-family: arial;
-  color: #000000;
+  /* color: #000000; */
   text-decoration: none;
   padding: 15px 10px;
   font-size: 18px;

@@ -7,12 +7,12 @@
                 id: studio.id
             }
         }"
-            class=" relative group cursor-pointer transition-all flex flex-col justify-center items-center hover:text-xs hover:scale-[0.98] duration-1/2 hover:rounded-3xl overflow-hidden">
+            class=" relative group cursor-pointer font-bold transition-all flex flex-col justify-center items-center hover:text-xs hover:scale-[0.98] duration-1/2 hover:rounded-3xl overflow-hidden">
             <img class="h-full" :src="studio.img" />
             <div class="hidden group-hover:block absolute text-sm lg:text-2xl text-center z-20">{{ studio.name
             }}
             </div>
-            <div class=" opacity-0 group-hover:opacity-80 absolute inset-0 bg-base-200 z-[10]"></div>
+            <div class=" opacity-0 group-hover:opacity-40 absolute inset-0 bg-base-200 z-[10]"></div>
         </nuxt-link>
     </div>
 </template>

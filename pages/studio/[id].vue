@@ -1,5 +1,5 @@
 <template>
-    <div class="card bg-base-100 shadow-xl px-20 py-10">
+    <div class="card bg-base-100 shadow-xl p-0 md:px-20 md:py-10">
         <figure>
             <img :src="curStudio.img" alt="">
         </figure>

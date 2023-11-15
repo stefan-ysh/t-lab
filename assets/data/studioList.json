@@ -1,73 +1,91 @@
 [
   {
+    "id": 1,
     "name": "APRCAST 亚太区高级科学技术研究中心",
     "img": "/img/studio/1.jpg"
   },
   {
+    "id": 2,
     "name": "CSEAE 欧美经济研究中心",
     "img": "/img/studio/2.jpg"
   },
   {
+    "id": 3,
     "name": "STEAM和PBL工作室",
     "img": "/img/studio/3.jpg"
   },
   {
+    "id": 4,
     "name": "JSL 植物生长工作室",
     "img": "/img/studio/4.jpg"
   },
   {
+    "id": 5,
     "name": "JOIN OUR COMPETITION",
     "img": "/img/studio/5.jpg"
   },
   {
+    "id": 6,
     "name": "APRCAST 亚太区高级科学技术研究中心",
     "img": "/img/studio/6.jpg"
   },
   {
+    "id": 7,
     "name": "JOIN OUR COMPETITION",
     "img": "/img/studio/7.jpg"
   },
   {
+    "id": 8,
     "name": "AMERICA ECONOMY RESEARCH CENTER",
     "img": "/img/studio/8.jpg"
   },
   {
+    "id": 9,
     "name": "EOUR MILITARY REPORTING CENTER",
     "img": "/img/studio/9.jpg"
   },
   {
+    "id": 10,
     "name": "CSC BLOCK CHAIN LAB",
     "img": "/img/studio/10.jpg"
   },
   {
+    "id": 11,
     "name": "NASA SPACE STATION",
     "img": "/img/studio/11.jpg"
   },
   {
+    "id": 12,
     "name": "APRCAST 亚太区高级科学技术研究中心",
     "img": "/img/studio/12.jpg"
   },
   {
+    "id": 13,
     "name": "CHINESE CULTURE RESEARCH CENTER",
     "img": "/img/studio/13.jpg"
   },
   {
+    "id": 14,
     "name": "JAPANESE VIDEO GAME RESEARCH CENTER",
     "img": "/img/studio/14.jpg"
   },
   {
+    "id": 15,
     "name": "QTM RICE RESEARCH CENTER",
     "img": "/img/studio/15.jpg"
   },
   {
+    "id": 16,
     "name": "BIG DATA ANALYSIS CENTER",
     "img": "/img/studio/16.jpg"
   },
   {
+    "id": 17,
     "name": "LAND ATTRIBUTE RESONABLE USE RECYCLE",
     "img": "/img/studio/17.jpg"
   },
   {
+    "id": 18,
     "name": "JOIN OUR COMPETITION AND WIN THE PRIZE",
     "img": "/img/studio/18.jpg"
   }

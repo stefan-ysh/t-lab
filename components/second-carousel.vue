@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-full px-5 md:px-20 lg:h-56 flex bg-slate-500 lg:px-6 p-x-0 flex-col lg:flex-row justify-center bg-secondBanner">
+    <div class="w-full h-full px-5 md:px-20 lg:h-56 flex bg-slate-500 lg:px-6 flex-col lg:flex-row justify-center bg-secondBanner">
         <div v-for="(carousel, i) in carouselList" :key="carousel.img" class="carousel-item w-full lg:mt-0 mt-10
             bg-no-repeat
             bg-[length:100%]

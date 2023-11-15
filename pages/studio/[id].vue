@@ -1,11 +1,9 @@
 <template>
     <div class="card bg-base-100 shadow-xl p-0 md:px-20 md:py-10">
-        <div class="hero min-h-full" :style="`background-image: url(${curStudio.img})`">
+        <div class="hero min-h-[15vh] sticky top-0" :style="`background-image: url(${curStudio.img})`">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
-                <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl font-bold">{{ curStudio.name }}</h1>
-                </div>
+                <h1 class="text-base md:text-lg lg:text-2xl font-bold">{{ curStudio.name }}</h1>
             </div>
         </div>
         <div class="card-body">

@@ -12,7 +12,7 @@
                 <img class="invisible md:visible w-40 object-contain" :src="curUser.avatar" />
             </div>
             <div class=" leading-10  mt-20 lg:mt-5">
-                <p class=" first-letter:text-7xl first-letter:italic font-extralight">
+                <p class=" first-letter:text-7xl first-letter:italic font-extralight text-justify">
                     {{ curUser.name }}
                     , KBE (English: William Henry Gates III, October 28, 1955), commonly known as
                     Bill
